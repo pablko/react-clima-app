@@ -58,7 +58,7 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
           onChange={handleChange}
         >
           <option value="">-- Seleccione un país --</option>
-          <option value="AR">Argentina</option>
+          <option value="AR" className="orange">Argentina</option>
           <option value="CO">Colombia</option>
           <option value="CR">Costa Rica</option>
           <option value="ES">España</option>
@@ -73,7 +73,7 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
         <input 
           type="submit" 
           value="Buscar clima"
-          className="waves-effect waves-light btn btn-large btn-block yellow accent-4"
+          className="waves-effect waves-light btn btn-large btn-block orange darken-4"
         />
       </div>
     </form>

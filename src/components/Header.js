@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 const Header = ({titulo}) => {
   return ( 
     <nav>
-      <div className="nav-wrapper light-blue darken-2">
-        <a href="#!" className="brand-logo">{titulo}</a>
+      <div className="nav-wrapper orange darken-3">
+        <a href="/" className="brand-logo">{titulo}</a>
       </div>
     </nav>
    );

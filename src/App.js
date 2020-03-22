@@ -56,7 +56,7 @@ function App() {
         titulo="Clima React App"
       />
 
-      <div className="contenedor-form">
+      <div className="contenedor-form amber darken-1">
         <div className="container">
           <div className="row">
             <div className="col m6 s12">
